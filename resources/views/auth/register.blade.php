@@ -7,7 +7,7 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-5 col-sm-6">
             <div class="card">
                 <div class="card-header">{{ __('Register') }}</div>
 
@@ -119,8 +119,12 @@
                             <button type="submit" class="btn btn-primary">
                                 {{ __('Register') }}
                             </button>
+ 
+                          
                         </div>
                     </form>
+                    <a href="{{ route('login') }}" class="float-right">Login if already registered</a>
+
                 </div>
             </div>
         </div>
