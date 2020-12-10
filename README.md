@@ -5,6 +5,10 @@ Application is built in Laravel 7 Framework
 
 (c) [Laravel Framework](https://github.com/laravel/laravel)
 
+Pokemons were fetched from Poke API ([pokeapi.co](https://pokeapi.co))
+
+(c) [Poke API](https://pokeapi.co/)
+
 ## Installation
 Clone the repository and install the required packages
 ```
