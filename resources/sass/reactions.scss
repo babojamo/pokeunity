@@ -1,0 +1,28 @@
+.reaction-btn {
+    color: #c9c9c9;
+    font-size: 20px;
+
+    &.heart {
+
+        &:hover,
+        &.active {
+            color: #b60707;
+        }
+    }
+
+    &.like {
+
+        &:hover,
+        &.active {
+            color: #0761b6;
+        }
+    }
+
+    &.hate {
+
+        &:hover,
+        &.active {
+            color: #e2a637;
+        }
+    }
+}

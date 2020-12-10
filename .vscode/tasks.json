@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "1.0.0",
+    "tasks": [
+        {
+            "label": "Homestead SSH",
+            "type": "shell",
+            "command": "cd \"C:\\laravel\\homestead\" && vagrant ssh",
+
+        },
+        {
+            "label": "Homestead Folder",
+            "type": "shell",
+            "command": "cd \"C:\\laravel\\homestead\" && start .",
+
+        },
+        {
+            "label": "Homestead VSCode",
+            "type": "shell",
+            "command": "cd \"C:\\laravel\\homestead\" && code .",
+
+        }
+    ]
+}
